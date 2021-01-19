@@ -16,6 +16,6 @@ jobs:
           command: CI=1 yarn test
 
 workflows:
-  sample: 
+  constateExample: 
     jobs:
       - build-and-test
