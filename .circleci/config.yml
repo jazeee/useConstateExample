@@ -1,0 +1,9 @@
+orbs:
+  node: circleci/node4.0.0
+
+version: 2.1
+
+workflows:
+  hook-tests:
+    jobs:
+      - node/test
